@@ -28,6 +28,6 @@ body {
 }
 
 .bg-primary-transparent {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-primary-transparent);
   
 }
