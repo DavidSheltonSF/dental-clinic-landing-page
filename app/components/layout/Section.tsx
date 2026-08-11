@@ -5,7 +5,7 @@ interface Props {
 }
 
 export function Section({children, className, ...sectionProps}: HTMLAttributes<HTMLElement> & Props) {
-  const baseStyles = 'min-h-[100dvh]';
+  const baseStyles = 'flex h-[100dvh]';
   return <section 
   {...sectionProps}
   className={`${baseStyles} ${className}`}
